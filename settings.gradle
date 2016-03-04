@@ -9,4 +9,4 @@
  * in the user guide at https://docs.gradle.org/2.11/userguide/multi_project_builds.html
  */
 
-rootProject.name = 'gradle-java-quickstart'
+rootProject.name = 'spark-framework-quickstart'
