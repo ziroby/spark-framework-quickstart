@@ -1,10 +1,11 @@
+import static spark.Spark.*;
 
 /**
  * Simple hello class
  */
-public class Hello {
+public class HelloSpark {
     public static void main(String[] args)  {
-        System.out.println(helloString());
+        get("/", (req, res) -> helloString());
     }
     public static String helloString() {
         return "Hello World!";

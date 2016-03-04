@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
  */
 public class HelloTest {
     @Test public void testHello() {
-        String actual = Hello.helloString();
+        String actual = HelloSpark.helloString();
         String expected = "Hello World!";
         assertThat(actual, equalTo(expected));
     }
